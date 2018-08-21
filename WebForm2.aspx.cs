@@ -15,7 +15,7 @@ namespace resume
             if (!IsPostBack)
             {
                 String data1 = "", data2 = "", data3 = "", data4 = "", data5 = "", data6 = "", data7 = "";
-                String connstr = "Server=dineshresume.database.windows.net;Database=resume;User ID=dineshkumark104;Password= Dinesh@9245242808;";
+                String connstr = "Server=dineshresume.database.windows.net;Database=resume;User ID=****;Password= *******";
                 SqlConnection conn = new SqlConnection(connstr);
                 conn.Open();
                 SqlCommand cmd = new SqlCommand("select prog_lang,op_sys,datab from dbo.skills;");
