@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master_resume.master.cs" Inherits="resume.master_resume" %>
+
+<!DOCTYPE html>
+
+<html>
+<link rel="stylesheet" href="StyleSheet1.css">
+<head runat="server">
+    <title>dinesh_resume</title>
+   
+    <style type="text/css">
+        .form-style-8 {
+            height: 702px;
+            width: 953px;
+        }
+    </style>
+    <div class="form-style-8" >
+        <img src="pic.jpg" alt="my photo" style="height: 164px; width: 164px; margin-left: 0px;"> 
+        <h2 style="width: 944px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Dineshkumar kumar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: dineshkumark104@gmail.com </h2>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height: 400px; width: 973px; margin-left: 129px">
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+   
+</html>
